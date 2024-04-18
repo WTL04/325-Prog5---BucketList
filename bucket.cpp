@@ -52,7 +52,7 @@ public:
     }
 
     // Merge another Bucket 'b' into this Bucket
-    void merge(Bucket & b) 
+    void merge(Bucket b) 
     {
         vector<int> mergedVector;
 
